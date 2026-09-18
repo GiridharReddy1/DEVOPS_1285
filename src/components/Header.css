@@ -1,0 +1,21 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 18px max(24px, calc((100% - 1180px) / 2));
+  background: white;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.brand { font-size: 1.4rem; font-weight: 900; color: #312e81; }
+.header nav { display: flex; gap: 20px; flex-wrap: wrap; }
+.header nav a { color: #475569; text-decoration: none; font-weight: 600; }
+.header nav a:hover { color: #312e81; }
+
+@media (max-width: 600px) {
+  .header { flex-direction: column; }
+}
