@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name":"shopping-cart-app",
   "private":true,
   "version":"1.0.0",
@@ -6,4 +7,23 @@
   "scripts":{"dev":"vite","build":"vite build","preview":"vite preview"},
   "dependencies":{"react":"^18.3.1","react-dom":"^18.3.1"},
   "devDependencies":{"vite":"^5.4.0","@vitejs/plugin-react":"^4.3.1"}
+=======
+  "name": "book-store-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.10"
+  }
+>>>>>>> 5d77200503228a0fc251a18c61128ff15eb4a615
 }

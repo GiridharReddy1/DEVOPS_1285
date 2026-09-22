@@ -1,0 +1,15 @@
+.category { display: flex; flex-direction: column; gap: 8px; }
+.category-list { display: flex; flex-wrap: wrap; gap: 8px; }
+.category-list button {
+  border: 1px solid #d1d5db;
+  background: white;
+  color: #475569;
+  padding: 10px 14px;
+  border-radius: 999px;
+  font-weight: 700;
+}
+.category-list button:hover, .category-list button.active {
+  background: #312e81;
+  color: white;
+  border-color: #312e81;
+}
