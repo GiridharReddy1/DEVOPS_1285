@@ -1,0 +1,1 @@
+export default ()=> <div className="footer">React Shopping Cart - DevOps & Fullstack Assignment</div>;

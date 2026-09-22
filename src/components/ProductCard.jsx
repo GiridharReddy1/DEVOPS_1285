@@ -1,0 +1,1 @@
+export default ({p,add})=><div className="card"><img src={p.image}/><h3>{p.name}</h3><p>₹{p.price}</p><button className="add" onClick={()=>add(p)}>Add to Cart</button></div>;

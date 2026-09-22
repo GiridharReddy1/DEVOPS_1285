@@ -1,0 +1,1 @@
+export default ({count})=><div className="header"><h1>Online Shopping</h1><p>Cart Items: {count}</p></div>;
